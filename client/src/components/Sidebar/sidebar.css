@@ -1,0 +1,130 @@
+.sidebar-container {
+    height: 100vh;
+    width: 100vw;
+}
+
+.sidebar-list {
+    align-items: flex-end;
+}
+
+button.borderless {
+    border-top: 0 none;
+    border: none;
+    width: auto;
+}
+
+.borderless span {
+    padding-left: 15px;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.sidebar .list-group {
+    /* margin-left: auto; */
+    display: block;
+    max-width: 100%;
+}
+
+.sidebar .list-group-item-action:hover {
+    border-radius: 30px;
+    background-color: rgba(29, 161, 242, 0.1);
+    color: rgba(29, 161, 242, 1);
+}
+
+.sidebar .submit-btn {
+    margin-top: 10px;
+    width: 210px;
+    height: 45px;
+    border-radius: 20px;
+    background-color: rgb(26, 145, 218);
+}
+
+.btn-tweet .submit-btn {
+    margin-top: 10px;
+    margin-left: 15px;
+    width: 80px;
+    border-radius: 20px;
+    background-color: rgb(26, 145, 218);
+}
+
+.twitter-icon {
+    font-size: 40px;
+    padding: 10px;
+    width: 60px;
+    display: flex;
+}
+
+.twitter-icon svg {
+    border-radius: 25px;
+    padding: 5px;
+    color: rgb(26, 145, 218);
+}
+
+.twitter-icon svg:hover {
+    background-color: rgba(29, 161, 242, 0.1);
+}
+
+.tweet-footer .image-icon {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    /* text-align: center; */
+    border-radius: 20px;
+    font-size: 20px;
+    color: rgb(26, 145, 218);
+    margin-top: 8px;
+}
+
+.image-icon label {
+    margin-bottom: 0;
+}
+
+.image-icon:hover {
+    background-color: rgba(29, 161, 242, 0.1);
+    /* margin-left: 10px; */
+}
+
+.image-btn {
+    display: none;
+}
+
+.tweet-container {
+    height: auto;
+    max-height: 5500px;
+}
+
+.text-area-container {
+    height: 140px;
+}
+
+.text-area-container .text-area {
+    border: none;
+}
+.tweet-footer{
+    justify-content: space-between;
+    margin-top: 10px;
+    display: flex;
+}
+
+/* .btn {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.btn-primary {
+  font-family: Raleway-SemiBold;
+  font-size: 13px;
+  color: rgba(58, 133, 191, 0.75);
+  letter-spacing: 1px;
+  line-height: 15px;
+  border: 2px solid rgba(58, 133, 191, 0.75);
+  border-radius: 40px;
+  background: transparent;
+  transition: all 0.3s ease 0s;
+}
+.btn-primary:hover {
+  color: #fff;
+  background: rgba(58, 133, 191, 0.75);
+  border: 2px solid rgba(58, 133, 191, 0.75);
+} */

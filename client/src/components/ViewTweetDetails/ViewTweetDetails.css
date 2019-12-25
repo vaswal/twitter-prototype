@@ -1,0 +1,14 @@
+.tweet-text{
+    font-size: 25px;
+    color: black;
+}
+
+.display-tweet .name{
+    margin-left: 0px !important;
+}
+
+.display-tweet .tweet-header{
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}

@@ -1,0 +1,103 @@
+.message-list-container {
+    border: solid 1px #bbb;
+    padding: 15px;
+    height: 100vh;
+}
+.start-btn .start-chat-btn {
+    margin-top: 10px;
+    width: 220px;
+    height: 40px;
+    border-radius: 20px;
+    align-content: center;
+    background-color: rgb(26, 145, 218);
+}
+.btn-tweet .save-btn {
+    /* margin-top: 10px; */
+    margin-right: 20px;
+    width: 80px;
+    border-radius: 20px;
+    background-color: rgb(26, 145, 218);
+}
+.search-body{
+    height:400px;
+}
+.search-result{
+    height:400px;
+}
+.profile-image{
+    border-radius: 50px;
+    margin-left: -10px;
+}
+.user-list{
+    /* margin-top: 10px; */
+    /* margin: auto; */
+    padding-left: 10px!Important;
+    /* padding-bottom:10px; */
+    display: flex!Important;
+    margin-left: 5px!Important;
+
+}
+.message-header{
+    font-weight: bolder;
+    margin: 10px 0px 10px 0px!Important;
+    font-size: 20px;
+}
+.chat-list-container{
+    display:flex!Important;
+    margin-left: -5px!Important;
+    margin-bottom: 5px!Important;
+}
+.msg-profile-image{
+    border-radius: 50px;
+    height: 70px;
+}
+.profile-name{
+    font-weight: bolder;
+}
+.profile-email{
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.profile-date{
+    display: flex;
+    justify-content: flex-end;
+}
+.no-message-header{
+    font-weight: bold;
+    align-content: center;
+}
+
+.chat-vs{
+    position: relative;
+    width: 100%;
+    cursor: pointer;
+}
+
+.chat-vs:hover{
+    background: #f7f7f7 !important;
+}
+
+.chat-vs .user-details{
+    width: 85%;
+    max-width: 85%;
+}
+
+.chat-vs .last-date{
+    position: absolute;
+    top: 12px;
+    right: 10px;
+}
+
+.chat-vs .last-message{
+    color: #b5b1b1;
+}
+
+.chat-vs .user-name{
+    font-weight: 700;
+    font-size: 18px;
+    font-family: inherit;
+}
+
+.user-chat-container{
+    width: 100%;
+}

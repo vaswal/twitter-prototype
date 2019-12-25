@@ -1,0 +1,41 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/server.js",
+            "console": "integratedTerminal",
+            "env": {
+                "TWITTER_API_PATH":"/api/v1",
+                "PORT":8080,
+                "MONGO_URL":"mongodb+srv://vijay1234:vijay1234@cluster0-v1zbh.mongodb.net/test?retryWrites=true&w=majority",
+                "MYSQLDB_HOST":"localhost",
+                "MYSQLDB_PORT":3306,
+                "MYSQLDB_NAME":"twitter",
+                "MYSQLDB_USER":"root",
+                "MYSQLDB_PASSWORD":"abc123",
+                // "MYSQLDB_HOST":"localhost",
+                // "MYSQLDB_PORT":3306,
+                // "MYSQLDB_NAME":"twitter",
+                // "MYSQLDB_USER":"root",
+                // "MYSQLDB_PASSWORD":"welcome123",
+                "SEQUELIZE_SYNC":0,
+                "TOKEN_BEARER":"bearer",
+                "JWT_SECRET":"CMPE273GROUP4AASVVTWITTERSECRET",
+                "JWT_EXPIRYTIME": 3600000,
+                "DEFAULT_PAGE_LIMIT": 10,
+                "REDIS_URL": "localhost",
+                "REDIS_PORT": 6379,
+                "CACHE_EXPIRY_TIME": 3600
+            }
+        }
+    ]
+}

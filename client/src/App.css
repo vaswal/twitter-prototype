@@ -1,0 +1,65 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #09d3ac;
+}
+
+
+#root > div > div > div > div > div.col-lg-3 > div > div > div > button:nth-child(11)
+{
+    display: none;
+}
+#root > div > div > div > div > div.col-lg-3 > div > div > div > button:nth-child(8)
+{
+    display: none;
+}
+#root > div > div > div > div > div.col-lg-3 > div > div > div > button:nth-child(12)
+{
+    display: none;
+}
+.list-group-item-action:focus, .list-group-item-action:hover{
+    background: transparent !important;
+}
+
+.sc-chat-window{
+    z-index: 9999 !important;
+}
+
+
+/* Scroll */
+
+/* .scroll-container{
+    height: 500px;
+    max-height: 500px;
+    display: block;
+    overflow: scroll;
+} */
+
+.spinner{
+    height: 100px;
+    display: block;
+    width: 150px;
+    margin: 0 auto;
+}
+
+.spinner img {
+    width: 100%;
+    height: 100%;
+}

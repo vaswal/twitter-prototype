@@ -1,0 +1,55 @@
+#moomINPUT_1 {
+    color: rgb(255, 255, 255);
+    display: block;
+    height: 38px;
+    min-height: auto;
+    min-width: auto;
+    overflow-wrap: break-word;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-size-adjust: 100%;
+    unicode-bidi: isolate;
+    white-space: pre-wrap;
+    width: 308px;
+    column-rule-color: rgb(255, 255, 255);
+    perspective-origin: 154px 19px;
+    transform-origin: 154px 19px;
+    caret-color: rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px inset rgb(255, 255, 255);
+    font: normal normal 400 normal 15px / normal system-ui, -apple-system, system-ui, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+    outline: rgb(255, 255, 255) none 0px;
+    padding: 10px;
+}
+
+/*#moomINPUT_1*/
+
+#moomINPUT_1:after {
+    color: rgb(255, 255, 255);
+    overflow-wrap: break-word;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-size-adjust: 100%;
+    white-space: pre-wrap;
+    column-rule-color: rgb(255, 255, 255);
+    caret-color: rgb(255, 255, 255);
+    border: 0px none rgb(255, 255, 255);
+    font: normal normal 400 normal 15px / normal system-ui, -apple-system, system-ui, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+    outline: rgb(255, 255, 255) none 0px;
+}
+
+/*#moomINPUT_1:after*/
+
+#moomINPUT_1:before {
+    color: rgb(255, 255, 255);
+    overflow-wrap: break-word;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-size-adjust: 100%;
+    white-space: pre-wrap;
+    column-rule-color: rgb(255, 255, 255);
+    caret-color: rgb(255, 255, 255);
+    border: 0px none rgb(255, 255, 255);
+    font: normal normal 400 normal 15px / normal system-ui, -apple-system, system-ui, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+    outline: rgb(255, 255, 255) none 0px;
+}
+
+/*#moomINPUT_1:before*/
+
