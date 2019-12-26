@@ -3,7 +3,7 @@
 
 **Programming Languages:** Javascript, HTML5
 
-**Web/Mobile Frameworks:** React, Node.js, Redux, Passport, JWT 
+**Web/Mobile Frameworks:** React, Node.js, Redux, Passport, JWT, Canvas.js
 
 **Databases:** MySQL, MongoDB, Redis
 
