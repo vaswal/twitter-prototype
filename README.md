@@ -18,9 +18,10 @@ It contained three components - Sidebar, TweetList and SearchBar. I used child t
     	type="button"
 	class="list-group-item list-group-item-action borderless"
 	onClick={() => this.sendData("Bookmarks")}
->	<FontAwesomeIcon icon={faBookmark} />
+>	
+	<FontAwesomeIcon icon={faBookmark} />
         	<span>Bookmarks</span>
-    	</button>
+    </button>
     sendData = (screenName) => {
         this.props.parentCallback(screenName);
     };
