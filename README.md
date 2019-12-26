@@ -3,7 +3,7 @@
 
 **Programming Languages:** Javascript, HTML5
 
-**Web/Mobile Frameworks:** React, Node.js, Redux, Passport, JWT, Canvas.js
+**Web/Mobile Frameworks:** React, Node.js, Redux, Passport, JWT, Bootstarp, Canvas.js
 
 **Databases:** MySQL, MongoDB, Redis
 
@@ -12,7 +12,7 @@
 **Testing:** Mockito, Chai, JMeter
 
 <h3>Homescreen</h3>
-It contains three React components - Sidebar, TweetList and SearchBar. I used child to parent callback to toggle between various screens listed in the SideBar. For example, clicking on Bookmarks button calls sendData() which  invokes the callback function to parent to change state of the parent to Bookmarks.
+It contains three React components - Sidebar, TweetList and SearchBar created using Bootstrap. I used child to parent callback to toggle between various screens listed in the SideBar. For example, clicking on Bookmarks button calls sendData() which  invokes the callback function to parent to change state of the parent to Bookmarks.
 
     <button
         type="button"
