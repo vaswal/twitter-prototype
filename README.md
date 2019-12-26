@@ -30,7 +30,7 @@ It contains three React components - Sidebar, TweetList and SearchBar. I used ch
 ![](https://github.com/vaswal/twitter-prototype/blob/master/images/HomeScreen.jpeg)
 
 <h3>Analytics charts</h3>
-Data visualisation charts
+I created data visualisation charts using Canvas.js to show Top 10 tweets by views. I used Redux calls to get the data for top 10 tweets and then passed it to the Chart child conatiner as can be shown below.
 
     render() {
         const options = {
@@ -68,6 +68,8 @@ Data visualisation charts
     
 ![](https://github.com/vaswal/twitter-prototype/blob/master/images/Top10TweetsByViews.jpeg)
 
+<h3>Search</h3>
+I added the funcationilty of searching my person or hashtag. The seach was handled on the Node.js back end using Mongoose queries.
 
 ![](https://github.com/vaswal/twitter-prototype/blob/master/images/SearchPeople.jpeg)
 
